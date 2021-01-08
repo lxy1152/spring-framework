@@ -2,6 +2,22 @@ pluginManagement {
 	repositories {
 		gradlePluginPortal()
 		maven { url 'https://repo.spring.io/plugins-release' }
+		
+		// public, jcenter
+		maven { url 'https://maven.aliyun.com/repository/public' }
+		// central
+		maven { url 'https://maven.aliyun.com/repository/central' }
+		// google
+		maven { url 'https://maven.aliyun.com/repository/google' }
+		// gradle-plugin
+		maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+		// spring, spring-plugin
+		maven { url 'https://maven.aliyun.com/repository/spring' }
+		maven { url 'https://maven.aliyun.com/repository/spring-plugin' }
+		// grails-core
+		maven { url 'https://maven.aliyun.com/repository/grails-core' }
+		// apache snapshots
+		maven { url 'https://maven.aliyun.com/repository/apache-snapshots' }
 	}
 }
 
