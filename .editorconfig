@@ -1,6 +1,6 @@
 root = true
 
-[*.{adoc,bat,groovy,html,java,js,jsp,kt,kts,md,properties,py,rb,sh,sql,svg,txt,xml,xsd}]
+[*.{adoc,bat,groovy,html,java,js,jsp,kt,kts,md,properties,py,rb,sh,sql,svg,txt,xml,xsd,gradle}]
 charset = utf-8
 
 [*.{groovy,java,kt,kts,xml,xsd}]

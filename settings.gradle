@@ -52,6 +52,10 @@ include "spring-webmvc"
 include "spring-websocket"
 include "framework-bom"
 include "integration-tests"
+// 由于下面的语句会识别 ${project.name}.gradle 文件
+// 所以需要把默认生成的 build.gradle 修改为 spring-lixiangyu.gradle
+// 要不然这个 include 语句就必须写在 rootProject.children.each 的下面
+include "spring-lixiangyu"
 
 rootProject.name = "spring"
 rootProject.children.each {project ->
